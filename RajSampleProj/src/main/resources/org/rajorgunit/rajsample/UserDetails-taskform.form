@@ -3,19 +3,19 @@
 <property name="name" value="UserDetails-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="Fields_field2" type="CheckBox" id="1438123232">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;field2 (Fields)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="outputDetails/field2"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
 <field position="0" name="Fields_field1" type="InputText" id="1203066667">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;field1 (Fields)quot;"/>
 <property name="readonly" value="false"/>
 <property name="outputBinding" value="outputDetails/field1"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="Fields_field2" type="CheckBox" id="1438123232">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field2 (Fields)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="outputDetails/field2"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="outputDetails" value="org.rajorgunit.rajsample.sampleObj1" id="Fields"/>
 </form>
