@@ -9,6 +9,7 @@ public class Customer implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Description("Raj")
    private java.lang.String firstName;
    private java.lang.String lastName;
 
