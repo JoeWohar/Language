@@ -12,6 +12,8 @@ public class Customer implements java.io.Serializable
    private java.lang.String firstName;
    private java.lang.String lastName;
 
+   private org.rajorgunit.rajsample.rajsampleproj.address address;
+
    public Customer()
    {
    }
@@ -36,10 +38,22 @@ public class Customer implements java.io.Serializable
       this.lastName = lastName;
    }
 
-   public Customer(java.lang.String firstName, java.lang.String lastName)
+   public org.rajorgunit.rajsample.rajsampleproj.address getAddress()
+   {
+      return this.address;
+   }
+
+   public void setAddress(org.rajorgunit.rajsample.rajsampleproj.address address)
+   {
+      this.address = address;
+   }
+
+   public Customer(java.lang.String firstName, java.lang.String lastName,
+         org.rajorgunit.rajsample.rajsampleproj.address address)
    {
       this.firstName = firstName;
       this.lastName = lastName;
+      this.address = address;
    }
 
 }
