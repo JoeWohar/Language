@@ -12,7 +12,7 @@ public class Customer implements java.io.Serializable
    private java.lang.String firstName;
    private java.lang.String lastName;
 
-   private org.rajorgunit.rajsample.rajsampleproj.address address;
+   private org.rajorgunit.rajsample.rajsampleproj.Address address;
 
    public Customer()
    {
