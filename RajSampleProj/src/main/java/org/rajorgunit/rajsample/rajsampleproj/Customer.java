@@ -56,4 +56,12 @@ public class Customer implements java.io.Serializable
       this.address = address;
    }
 
+   public Customer(java.lang.String firstName, java.lang.String lastName,
+         org.rajorgunit.rajsample.rajsampleproj.Address address)
+   {
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.address = address;
+   }
+
 }
