@@ -37,12 +37,12 @@ public class Customer implements java.io.Serializable
       this.lastName = lastName;
    }
 
-   public org.rajorgunit.rajsample.rajsampleproj.address getAddress()
+   public org.rajorgunit.rajsample.rajsampleproj.Address getAddress()
    {
       return this.address;
    }
 
-   public void setAddress(org.rajorgunit.rajsample.rajsampleproj.address address)
+   public void setAddress(org.rajorgunit.rajsample.rajsampleproj.Address address)
    {
       this.address = address;
    }
